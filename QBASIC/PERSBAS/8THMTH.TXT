@@ -1,0 +1,29 @@
+This text document is for the .BAS program labled "8THMTH.BAS"
+
+This program is ment to calculate the various Pre Algebraic Formulas
+
+Linear Equations
+    Slope Of a Line  M = y2 - y1 / x2 - x1
+Circumference
+    Circle    C = 2 * 3.14 * r  OR  C = 3.14 * d
+Area
+    Triangle A = 1/2 * b * h
+    Rectangle or Parallelogram A = b * h
+    Trapezoid A = 1/2 * (b1 + b2) * h
+    Circle A = 3.14 * r ^ 2
+
+Surface Area
+    Prism
+        Lateral S = P * h
+        Total S = P * h + 2 * B
+    Cylinder
+        Lateral S = 2 * 3.14 * r * h
+        Total
+Volume
+    Prism or Cylinder
+    Pyramid or Cone
+    Sphere
+Additional
+    Pythagorean Theorem
+    Simple Interest
+    Compound Interest
