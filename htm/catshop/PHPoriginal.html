@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information page</title>
+    <link rel="stylesheet" href="./php.css">
+</head>
+<body>
+    <form method="POST" enctype="multipart/form-data">
+        <header><p><b>Enter your information to complete this purchase</p></b></header>
+        <hr>
+        <label for="kingdom">Enter Your Kingdom</label>
+        <br>
+        <input type="radio" id="dg" value="dg" name="kingdom" required>
+        <lable for="dg">Dull Gwynedd</lable>
+        <input type="radio" id="dd" value="dd" name="kingdom" required>
+        <label for="dd">Dull Dyfed</label>
+        <input type="radio" id="dgw" value="dgw" name="kingdom" required>
+        <lable for="dgw">Dull Gwent</lable>
+        <br>
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="example@mail.com" required>
+    <br>
+
+    <label for="phone">Phone #</label>
+    <input type="tel" id="phone" placeholder="(123)-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+    <br>
+
+    <lable for="payment">Payment</lable>
+    <select id="payment" required>
+        <option value="visa" id="visa">Visa</option>
+        <option value="mc" id="mc">MasterCard</option>
+        <option value="credcrd" id="credcrd">Credit Card</option>
+        <option value="dbtcrd" id="dbtcrd">Debit Card</option>
+    </select>
+    <br>
+    <label for="bankcard">Bankcard Info</label>
+    <input type="text" id="bankcard" placeholder="XXXX-XXXX-XXXX-XXXX" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}" required>
+    <br>
+    <lable for="cvv">CVV Number</lable>
+    <input type="text" id="cvv" placeholder="XXX" required>
+    <br>
+    <lable for="exp">Exp</lable>
+    <input type="tel" id="exp" placeholder="XX-XX" pattern="[0-9]{2}-[0-9]{2}" required>
+    <br>
+    <lable for addy>Address</lable>
+    <input type="text" id="addy" placeholder="123 Road ln">
+    <br>
+    <lable for="title">Would You Like To Subscribe to our Newsletter?</lable> <br>
+    <input type="checkbox" id="subscribe">
+    <lable for="subscribe">Subscribe</lable>
+    <br>
+    <lable for="cat">Which cat would you like to purchase</lable>
+    <br>
+    <input type="radio" class="cat" id="coco" value="coco"  result required>
+    <lable for="coco">Coco</lable>
+    <input type="radio" class="cat" id="fluf" value="fluf" result required>
+    <lable for="fluf">Fluff</lable>
+    <input type="radio" class="cat" id="green" value="green" result required>
+    <label for="green">Green Apple</label>
+    <br>
+    <input type="radio" class="cat" id="mj" value="mj" result required>
+    <lable for="mj">Mary Jane</lable>
+    <input type="radio" class="cat" id="mrblu" value="mb" result required>
+    <lable for="mrblu">Mr.Blue</lable>
+    <input type="radio" class="cat" id="nyl" value="nyl" result required>
+    <lable for="nyl">Nyl</lable>
+    <br>
+    <input type="radio" class="cat" id="pizza" value="pizza" result required>
+    <label for="pizza">Pizza</label>
+    <input type="radio" class="cat" id="skit" value="skit" result required>
+    <label for="skit">Skittles</label>
+    <input type="radio" class="cat" id="sug" value="sug" result required>
+    <lable for="sug">Sugar</lable>
+    <input type="radio" class="cat" id='tweak' value="tweak" result required>
+    <label for="tweak">Tweak</label>
+    <br>
+    <input id="reset" type="reset"><br>
+    <input type="submit" id="phpsubmit">
+    <p id="p"></p>
+    <p id="p2"></p>
+</form>
+<button id="check">Check to confirm your choices</button>
+</body>
+</html>

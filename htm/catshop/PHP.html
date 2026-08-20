@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information page</title>
+    <link rel="stylesheet" href="./php.css">
+</head>
+<body>
+    <form method="POST" action="./payment end.html" enctype="multipart/form-data">
+    <header><p><b>Enter your information to complete this purchase</p></b></header>
+        <hr>
+        <label for="kingdom">Enter Your Kingdom</label>
+        <br>
+        <input type="radio" id="dg" value="dg" name="kingdom" required>
+        <lable for="dg">Dull Gwynedd</lable>
+        <input type="radio" id="dd" value="dd" name="kingdom" required>
+        <label for="dd">Dull Dyfed</label>
+        <input type="radio" id="dgw" value="dgw" name="kingdom" required>
+        <lable for="dgw">Dull Gwent</lable>
+        <br>
+        <label for="email">Email</label>
+    <input type="email" class="information" id="email" placeholder="coco@mail.com" required>
+    <br>
+
+    <label for="phone">Phone #</label>
+    <input type="tel" class="information" id="phone" placeholder="(123)-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        <br>
+        <lable for="payment">Payment</lable><br>
+        <input id="visa" type="radio" name="payment">
+        <lable for="visa">Visa</lable>
+        <input id="mc" type="radio" name="payment">
+        <lable for="mc">MasterCard</lable>
+        <input id="credcrd" type="radio" name="payment">
+        <lable for="credcrd">Credit Card</lable>
+        <input id="dbtcrd" type="radio" name="payment">
+        <lable for="dbtcrd">Debit Card</lable>
+        <br>
+        <label for="bankcard">Bankcard Info</label>
+    <input type="text" id="bankcard" placeholder="XXXX-XXXX-XXXX-XXXX" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}" required>
+    <br>
+    <lable for="cvv">CVV Number</lable>
+    <input type="text" class="information" id="cvv" placeholder="XXX" required>
+    <br>
+    <lable for="exp">Exp</lable>
+    <input type="text" class="information" id="exp" placeholder="XX-XX" pattern="[0-9]{2}-[0-9]{2}" required>
+    <br>
+    <lable for addy>Address</lable>
+    <input type="text" class="information" id="addy" placeholder="123 Road ln">
+    <br>
+    <lable for="title">Would You Like To Subscribe to our Newsletter?</lable> <br>
+    <input type="checkbox" id="subscribe">
+    <lable for="subscribe">Subscribe</lable>
+    <br>
+    <lable for="cat">Which cat would you like to purchase</lable>
+    <br>
+    <input type="radio" class="cat" id="coco" result required>
+    <lable for="coco">Coco</lable>
+    <input type="radio" class="cat" id="fluf" result required>
+    <lable for="fluf">Fluff</lable>
+    <input type="radio" class="cat" id="green" result required>
+    <label for="green">Green Apple</label>
+    <br>
+    <input type="radio" class="cat" id="mj" result required>
+    <lable for="mj">Mary Jane</lable>
+    <input type="radio" class="cat" id="mrblu" result required>
+    <lable for="mrblu">Mr. Blue</lable>
+    <input type="radio" class="cat" id="nyl" result required>
+    <lable for="nyl">Nyl</lable>
+    <br>
+    <input type="radio" class="cat" id="pizza" result required>
+    <label for="pizza">Pizza</label>
+    <input type="radio" class="cat" id="skit" result required>
+    <label for="skit">Skittles</label>
+    <input type="radio" class="cat" id="sug" result required>
+    <lable for="sug">Sugar</lable>
+    <input type="radio" class="cat" id='tweak' result required>
+    <label for="tweak">Tweak</label>
+    <br>
+    <input id="reset" type="reset"><br>
+    <input type="submit" id="sub">
+    </form>
+<button id="check">Check to confirm your choices</button>
+    <p id="p"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <h3 id="h3"></h3>
+    <p id="p4"></p>
+    <p id="p5"></p>
+    <p id="p6"></p>
+    <p id="p7"></p>
+    <p id="p8"></p>
+    <p id="p9"></p>
+    <p id="p10"></p>
+    <p id="p11"></p>
+    <p id="p12"></p>
+    <p id="p13"></p>
+    <p id="p15"></p>
+    <button id="onehundred">Click here if you are 100% sure your info is correct</button>
+<script src="./PHP.js"></script>
+
+</body>
+</html>

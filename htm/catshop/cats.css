@@ -1,0 +1,25 @@
+body {
+    background-color: green;
+    color: rgb(41, 41, 41);
+}
+
+#button {
+    border: 3px solid;
+    border-color: rgb(41, 41, 41);
+    border-radius: 50%;
+}
+
+header {
+    text-align: center;
+    font-size: 90px;
+}
+
+.cat {
+  display: block;
+  margin: 20px auto;
+  width: 40%;
+  border-radius: 10px;
+  border: 7px solid;
+  border-color: rgb(62, 62, 62);
+
+}
