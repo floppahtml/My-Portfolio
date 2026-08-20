@@ -1,0 +1,10 @@
+body {
+     background-image: url("../baller.png");
+     text-align: center;
+}
+a:link {
+    color: #ff0000;
+}
+a:visited {
+    color: #008080;
+}

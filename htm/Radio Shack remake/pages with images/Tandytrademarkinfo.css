@@ -1,0 +1,12 @@
+body {
+     background-image: url("./tandyhour.gif");
+     color: blue;
+}
+
+header {
+     text-align: center;
+}
+footer {
+     text-align: center;
+     font-size: xx-small;
+}
