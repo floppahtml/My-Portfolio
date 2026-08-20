@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(139, 203, 255);
+    color: black;
+}
+td {
+    text-align: center;
+}
+h1 {
+    text-align: center; background-color: rgb(167, 0, 139);
+}
+
+h2 {
+    text-align: center; background-color:rgb(146, 146, 146);
+}
+
+a {
+    color: white;
+}
