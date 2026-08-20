@@ -1,0 +1,28 @@
+
+QBasic Tutorials
+
+QBT1: Getting Started
+QBT2: Printing Math
+QBT3: Print Formatting
+QBT3-1: printing math with formatting
+QBT4: Variables and Data Types
+QBT4-1: another way to do variables and how VB does it
+QBT5: Type Mismatch and Other data type errors
+QBT6: User input 
+QBT7: If Statements
+QBT7-1: simle greater than less than statement
+QBT7-2: greater than less than calculator
+QBT8: select case statements
+QBT8-1: Simple Score Evaluator
+QBT9: While Loop
+QBT10: do loop
+QBT11: for loop
+QBT12: simple calculator with input validation
+QBT13: random numbers
+QBT14: guess my number guessing game 
+QBT15: arrays
+QBT16: parallel arrays
+QBT17: 2dimentional aray - matrix
+QBT18: read and data matrix
+QBT19: highest and lowest array element
+QBT20: boolean techniques

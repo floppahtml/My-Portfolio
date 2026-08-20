@@ -1,0 +1,12 @@
+This file is for stuff that Qbasic 1.1 does not have but QB64 does
+
+QB64 Updated Data Types
+-INTEGER64   &&
+-9223372036854775808 to 9223372036854775807
+
+FLOAT      ##
+-1.18e^4932 to 1.18e^4932
+
+list of datatypes in qb64
+
+http://www.qb64.net/wiki/index.php?title=Data_types
