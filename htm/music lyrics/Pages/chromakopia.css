@@ -1,0 +1,11 @@
+body {
+  background-image: linear-gradient(to bottom, #d5d4ba, #262216);
+}
+
+#hidden{
+    display: none;
+}
+
+#mother{
+  color: white;
+}
