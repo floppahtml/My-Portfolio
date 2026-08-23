@@ -1,0 +1,26 @@
+#countlable {
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: helvetica;
+}
+
+#buttonbox {
+    text-align: center;
+
+}
+
+.buttons{
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    background-color: rgb(153, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+
+}
+
+.buttons:hover{
+    background-color: rgb(100, 0, 0);
+}
