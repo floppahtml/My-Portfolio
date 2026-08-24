@@ -1,0 +1,30 @@
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+
+p::first-line{
+    background-color: yellow;
+}
+
+/*
+p::selection{
+    color: white;
+    background-color: red;
+}
+*/
+p::selection{
+    color: #2fff00;
+    background-color: black;
+}
+
+
+#a::after{
+    content:"🍏";
+}
+
+#fruit li::marker{
+    content: "♥";
+    color: red;
+    font-size: 1.2em;
+}

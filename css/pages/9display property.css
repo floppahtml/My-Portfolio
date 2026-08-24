@@ -1,0 +1,13 @@
+div {
+    background-color: red;
+    /*width
+    height only work here since its a block*/
+    width: 100px;
+    height: 100px;
+    /*display: block; does nothing its already a block element*/
+    
+}
+span {
+    background-color: blue;
+    display: inline;
+}

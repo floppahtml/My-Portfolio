@@ -1,0 +1,25 @@
+/*intro btw*/
+
+#box1 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    /*position: sticky; best for menu bars youd like to keep on the top of your webpage*/
+    top: 0;
+    left: 200px;
+    /*position: relative;
+    top: -100px;
+    left: -100px;*/
+    /*position: fixed;
+    right: 0;
+    bottom: 0;*/   
+}
+
+#box2 {
+    width: 100px;
+    height: 100px;
+    background-color: seagreen;
+    position: static;
+    top: 50px;
+    left: 50px;
+}

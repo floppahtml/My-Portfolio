@@ -1,0 +1,17 @@
+/*h1 {
+    font-family: "IBM plex sans";
+}
+p{
+    font-family: "playfair display", "courier new";
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+}*/
+/*imported font*/
+@font-face{
+    src: url(./fonts/IBMPlexSans-VariableFont_wdth\,wght.ttf);
+    font-family: IBM-plex-serif;
+}
+h1 {
+    font-family: IBM-plex-serif;
+}

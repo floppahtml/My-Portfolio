@@ -1,0 +1,19 @@
+/*css color names*/
+body {
+    background-color: slategray;
+}
+#p1 {
+    color: tomato;
+}
+/*RGB*/
+#p2 {
+    color: rgb(102, 222, 255);
+}
+/*hex*/
+#p3 {
+    color: #59ff5f;
+}
+/*hsl one i will not be useing*/
+#p4 {
+    color: hsl(283, 100%, 64%);
+}

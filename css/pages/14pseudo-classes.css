@@ -1,0 +1,21 @@
+/*
+Pseudo classes
+
+hover change something when hovering
+active change something when you click and hold
+visited change something if youve visited the link
+link change a link
+
+not changes whatever pseudo class is not being done (example li:not(:hover) will change a list item that is not being hovered over
+nth-child(int) nth-child is used to select certain items like in a list and change it nth-child(9) slects and changes the 9th item nth-child(odd) select all odd numbered elements nth-child(3n) selects every 3rd item nth-child(3n+1) selects every 3rd item starting from the top
+*/
+
+#q p{
+    background-color: lightblue;
+    padding: 10px;
+    display: none;
+}
+
+#q:hover p{
+    display: block;
+}

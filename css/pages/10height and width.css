@@ -1,0 +1,25 @@
+/* an asterisk "*" Selects all elements*/
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: grey;
+    /*vh is viewport height and in this case it takes up all avaliable space*/
+    height: 100vh;
+}
+
+.box {
+    background-color: white;
+    border: 2px solid;
+    height: auto;
+    /*This is to disregard padding and 
+    border sizes so float works*/
+    padding: 25px;
+    width: 50%;
+    float: left;
+    text-align: center;
+    /*max width and height and min width and height both cap off how tall or wide something can be regardless of anything else stating otherwise*/
+    max-height: 50%;
+}

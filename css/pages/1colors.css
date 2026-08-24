@@ -1,0 +1,28 @@
+/* this is for html elements*/
+body {
+    background-color: black;
+}
+h1{
+    color: white;
+}
+/*this is how to css ID variables*/
+#p1 {
+    color: red;
+}
+#p2 {
+    color: green;
+}
+#p3 {
+    color: blue;
+}
+#p4 {
+    color: magenta;
+}
+/*this is how to do css by class name you can add class css to all
+pages*/
+.odd {
+    color: lightgreen;
+}
+.even {
+    color: mediumpurple;
+}

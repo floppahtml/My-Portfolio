@@ -1,0 +1,10 @@
+div {
+    border: 2px solid;
+    height: 75px;
+    /*overflow: visible; aka do nothing to the overflow*/
+    /*overflow: hidden; hide all that overflows*/
+    /*overflow: clip;
+    overflow-clip-margin: 13px; basicly the same as hidden but you control how much overflows*/
+    /*overflow: scroll; gives a scroll bar to see the rest of the content*/
+    /*overflow: auto; same as scroll but only shows the bar when you need it*/
+}
