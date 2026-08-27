@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+    /*flex-wrap: wrap; is just word wrap for items*/
+    /*align-content works with flex wrap on
+      flex-start removes space inbetween everything and has everything to the top
+      flex-end removes space inbetween everything and has everything to the bottom
+      center
+      space-evenly spaces everything in an even fassion
+      space-between spaces inbetween everyhting as much as posible*/
+    /*column-gap: 1em;
+    row-gap: 1em
+    both place gaps between things;*/
+    /*flex-direction: ;
+      Here you can enter some directions
+      column aranges things into a column
+      row aranges things into a row and is default
+      row-reverse is row but in reverse order (instead of 1,2,3,4 its 4,3,2,1)
+      column-reverse same as row reverse but for columns*/
+    /*justify-content
+      justify content can make content conform to the main axis (x axis)
+      flex-start keeps things at the left of the screen default
+      flex-end keeps things to the right
+      center
+      space-inbetween puts as much space inbetween items as posible
+      space-around includes the area around the items
+      space-evenly just spaces things evenly idk how*/
+    /*align-items is just justify content but for the up down y axis
+      flex-start keeps things to the top default
+      flex-end keeps things to the bottom
+      center
+      baseline centeres everything to do with font?*/
+    
+
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    
+    text-align: center;
+    border-radius: 15px;
+}
+#box1{
+    /*align-self
+    start has one single item at top y axis
+    center has one single item middle y axis
+    end has one single item bottom y axis*/
+    /*order
+    works from right to left 1 being most right and for example 4 being most left*/
+    background-color: red;
+}
+#box2{
+    background-color: lime;
+    order: -1;
+}
+#box3{
+    background-color: blue;
+}
+#box4{
+    background-color: navajowhite;
+}
